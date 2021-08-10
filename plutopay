@@ -41,7 +41,70 @@
 
     	<!-- For work -->
       <main>
-
+        <div>
+          <h2>Projects</h2>
+          <div><!-- row that holds (3) columns -->
+            <div><!-- first column (used for image) -->
+              <picture>
+                <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                <img src="http://via.placeholder.com/1200x800" alt="Plutopay Image Problem">
+              </picture>
+            </div>
+            <div><!-- second column (used for text) -->
+              <h3>Problem</h3>
+              <p>
+                To keep track of your financial life, you have to use many different services so that it
+                is difficult to overview everything at the same time.
+              </p>
+            </div>
+            <div><!-- third column (used for text) -->
+              <h3>Solution</h3>
+              <p>
+                PlutoPay allows you to integrate your existing banking and investment services and combines
+                them in one place.<br>
+                It also offers additional features to help you identify and improve your habits or share money
+                with your friends.
+              </p>
+            </div>
+          </div>
+          <div><!-- row that holds (2) columns -->
+            <div><!-- first column (used for image) -->
+              <picture>
+                <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                <img src="http://via.placeholder.com/1200x800" alt="Plutopay Image Target Audience">
+              </picture>
+            </div>
+            <div><!-- second column (used for text) -->
+              <h3>Target Audience</h3>
+              <ul>
+                <li><span>Students and apprentices</span> would be more likely to use the app for its social features</li>
+                <li><span>Young adults</span> who are fresh in their careers can use the app mainly because of the planning features
+                  and the ability to set up saving goals or budgets</li>
+              </ul>
+            </div>
+          </div>
+          <div><!-- row that holds (2) columns -->
+            <div><!-- first column (used for image) -->
+              <picture>
+                <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                <img src="http://via.placeholder.com/1200x800" alt="Plutopay Image Target Audience">
+              </picture>
+            </div>
+            <div><!-- second column (used for text) -->
+              <h3>First User Research</h3>
+              <p>
+                I did different types of user research before starting the design process to better understand
+                what users want and need:
+              </p>
+              <ul>
+                <li><span>Individual in person interviews</span> where I interviewed the participants regarding
+                  behaviour/attitudes, needs/goals or frustrations points</li>
+                <li><span>Survey</span> was able to address a larger group and mainly explored the participants' banking
+                  behaviour and financial habits</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </main>
 
       <!-- For the footer  -->
