@@ -87,7 +87,7 @@
             <div><!-- first column (used for image) -->
               <picture>
                 <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-                <img src="http://via.placeholder.com/1200x800" alt="Plutopay Image Target Audience">
+                <img src="http://via.placeholder.com/1200x800" alt="Plutopay Image First User Research">
               </picture>
             </div>
             <div><!-- second column (used for text) -->
@@ -103,6 +103,40 @@
                   behaviour and financial habits</li>
               </ul>
             </div>
+            <div><!-- row that holds (3) columns -->
+              <div><!-- first column (used for image) -->
+                <picture>
+                  <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                  <img src="http://via.placeholder.com/1200x800" alt="Plutopay Image Insights">
+                </picture>
+              </div>
+              <div><!-- second column (used for text) -->
+                <h3>Following insights were gained</h3>
+                <ul>
+                  <li>Saving is sometimes compared to cutting into your quality of life</li>
+                  <li>When an app sets hard limits, it can make you feel patronized or not strong-willed enough</li>
+                  <li>Saving is about very personal goals, but they are similar in sum and mainly have to do with
+                    the feeling of security and stability in one‘s life</li>
+                  <li>It will probably be very difficult to move users away from card payments to another method</li>
+                  <li>There are different inner beliefs that influence the way we deal with money</li>
+                  <li>Almost everyone sometimes shares money with others - everyone also knows the problems that arise and
+                    fill this actually nice gesture with negative feelings</li>
+                </ul>
+              </div>
+              <div><!-- third column (used for text) -->
+                <h3>Important features</h3>
+                <ul>
+                  <li>Simple and fast handling</li>
+                  <li>Good overview</li>
+                  <li>Possibility to check as many accounts as possible</li>
+                  <li>Buyer protection</li>
+                  <li>Desktop access</li>
+                  <li>Transfer money</li>
+                  <li>Information on financial topics</li>
+                  <li>Have an overview of all accounts used</li>
+                  <li>Not having too many accounts</li>
+                </ul>
+              </div>
           </div>
         </div>
       </main>
