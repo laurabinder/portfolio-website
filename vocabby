@@ -42,12 +42,14 @@
 
     	<!-- For the hero section -->
     	<section>
-
+        <div>
+          <h1>Vocabby<span> - UX / UI for a vocabulary lerning App</span></h1>
+        </div>
     	</section>
 
     	<!-- For project -->
       <main>
-      
+
       </main>
 
       <!-- For the footer  -->
