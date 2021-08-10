@@ -89,19 +89,20 @@
                 <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
                 <img src="http://via.placeholder.com/1200x800" alt="Plutopay Image First User Research">
               </picture>
-            </div>
-            <div><!-- second column (used for text) -->
-              <h3>First User Research</h3>
-              <p>
-                I did different types of user research before starting the design process to better understand
-                what users want and need:
-              </p>
-              <ul>
-                <li><span>Individual in person interviews</span> where I interviewed the participants regarding
-                  behaviour/attitudes, needs/goals or frustrations points</li>
-                <li><span>Survey</span> was able to address a larger group and mainly explored the participants' banking
-                  behaviour and financial habits</li>
-              </ul>
+              </div>
+              <div><!-- second column (used for text) -->
+                <h3>First User Research</h3>
+                <p>
+                  I did different types of user research before starting the design process to better understand
+                  what users want and need:
+                </p>
+                <ul>
+                  <li><span>Individual in person interviews</span> where I interviewed the participants regarding
+                    behaviour/attitudes, needs/goals or frustrations points</li>
+                  <li><span>Survey</span> was able to address a larger group and mainly explored the participants' banking
+                    behaviour and financial habits</li>
+                </ul>
+              </div>
             </div>
             <div><!-- row that holds (3) columns -->
               <div><!-- first column (used for image) -->
@@ -137,9 +138,25 @@
                   <li>Not having too many accounts</li>
                 </ul>
               </div>
+            </div>
+            <div><!-- row that holds (1) column -->
+              <div><!-- first column (used for image) -->
+                <picture>
+                  <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                  <img src="http://via.placeholder.com/1200x800" alt="Presentation of User Persona">
+                </picture>
+              </div>
+            </div>
+            <div><!-- row that holds (1) column -->
+              <div><!-- first column (used for image) -->
+                <picture>
+                  <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                  <img src="http://via.placeholder.com/1200x800" alt="Presentation of User Journey Map">
+                </picture>
+              </div>
+            </div>
           </div>
-        </div>
-      </main>
+       </main>
 
       <!-- For the footer  -->
     	<footer id="contact">
