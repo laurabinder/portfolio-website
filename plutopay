@@ -155,6 +155,44 @@
                 </picture>
               </div>
             </div>
+            <div><!-- row that holds (2) columns -->
+              <div><!-- first column (used for image) -->
+                <picture>
+                  <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                  <img src="http://via.placeholder.com/1200x800" alt="Presentation of the Protoypes">
+                </picture>
+              </div>
+              <div><!-- second column (used for text) -->
+                <h3>Design development</h3>
+                <p>A simplified presentation of 3 important features – from low fidelity over mid to high fidelity
+                  and with a further design revision</p>
+              </div>
+            </div>
+            <div><!-- row that holds (3) columns -->
+              <div><!-- first column (used for image) -->
+                <picture>
+                  <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                  <img src="http://via.placeholder.com/1200x800" alt="Presentation of the Colors">
+                </picture>
+              </div>
+              <div><!-- second column (used for text) -->
+                <h3>Design Language</h3>
+                <p><span>Colors:</span>
+                  The App uses a variation of three blue tones to transport the responsible level of the app on
+                  the one hand, but also bring a freshness and young dynamics into the app through the lighter
+                  shades on the other hand. As an accent a violet tone is also used.</p>
+                <p><span>Typography:</span>
+                  For the font selection, I have limited myself to one
+                  font in order to keep the appearance clear and simple.
+                  Only the font weight and size varies.</p>
+              </div>
+              <div><!-- third column (used for image) -->
+                <picture>
+                  <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                  <img src="http://via.placeholder.com/1200x800" alt="Presentation of the Typography">
+                </picture>
+              </div>
+            </div>
           </div>
        </main>
 
