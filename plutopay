@@ -193,6 +193,38 @@
                 </picture>
               </div>
             </div>
+            <div><!-- row that holds (2) columns -->
+              <div><!-- first column (used for image) -->
+                <picture>
+                  <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                  <img src="http://via.placeholder.com/1200x800" alt="Presentation of the Grids">
+                </picture>
+              </div>
+              <div><!-- second column (used for text) -->
+                <h3>Grids / Layouts</h3>
+                <p><span>Vertical adjustment - 12-column grid:</span>
+                  12-column grid for enough flexibility and to be able to arrange individual elements freely
+                  enough without becoming cluttered.
+                </p>
+                <p><span>Horizontal adjustment - 8dp grid:</span>
+                  To keep a balance on the horizontal and in the size ratios use an 8dp grid.
+                </p>
+              </div>
+            </div>
+            <div><!-- row that holds (2) columns -->
+              <div><!-- first column (used for image) -->
+                <picture>
+                  <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                  <img src="http://via.placeholder.com/1200x800" alt="Presentation of the final screens">
+                </picture>
+              </div>
+              <div><!-- second column (used for text) -->
+                <h3>Final Design</h3>
+                <p>After doing some testing with the previous prototypes and making a few accessibility
+                  adjustments, I came up with the following final design.
+                </p>
+              </div>
+            </div>
           </div>
        </main>
 
