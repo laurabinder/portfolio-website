@@ -29,9 +29,14 @@
 
     	</header>
 
-    	<!-- For the hero section -->
+      <!-- For the hero section -->
     	<section>
-
+        <div>
+          <h1>PlutoPay<span> - UX / UI for a financial management App:</span></h1>
+          <p>PlutoPay is an app where all your financial data comes together. It gives you more overview
+            and control over your money and makes financial
+            management easier.</p>
+        </div>
     	</section>
 
     	<!-- For work -->
