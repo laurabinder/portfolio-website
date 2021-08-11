@@ -97,6 +97,21 @@
                   available, so that I can learn the technical jargon while reading it.“
                   </p>
                 </div>
+                <div><!-- row that holds (2) columns -->
+                  <div><!-- first column (used for image) -->
+                    <picture>
+                      <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                      <img src="http://via.placeholder.com/1200x800" alt="Image of Solution">
+                    </picture>
+                  </div>
+                  <div><!-- second column (used for text) -->
+                    <h3>Solution</h3>
+                    <p>
+                      We believe that by focusing the learning process on planned events in the future and by
+                      giving assistance with the time planning for Benjamin, we will achieve that he continues his
+                      learning until the planned event and does not lose focus and gives up.
+                    </p>
+                  </div>
             </div>
          </div>
       </main>
