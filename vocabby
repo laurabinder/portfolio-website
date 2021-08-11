@@ -112,6 +112,26 @@
                       learning until the planned event and does not lose focus and gives up.
                     </p>
                   </div>
+                </div>
+                <div><!-- row that holds (3) columns -->
+                  <div><!-- first column (used for image) -->
+                    <picture>
+                      <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                      <img src="http://via.placeholder.com/1200x800" alt="Showing a test of the first Prototype and the results">
+                    </picture>
+                  </div>
+                  <div><!-- second column (used for image) -->
+                    <picture>
+                      <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                      <img src="http://via.placeholder.com/1200x800" alt="Showing a test of the first Prototype and the learnigs)">
+                    </picture>
+                  </div>
+                  <div><!-- third column (used for link) -->
+                    <div>
+                      <a href="#">Link to Prototype</a>
+                    </div>
+                  </div>
+                </div> 
             </div>
          </div>
       </main>
