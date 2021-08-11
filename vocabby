@@ -44,12 +44,43 @@
     	<section>
         <div>
           <h1>Vocabby<span> - UX / UI for a vocabulary lerning App</span></h1>
+          <p>(Here I would like to tell the story focused on Benjamin our User Persona)</p>
         </div>
     	</section>
 
     	<!-- For project -->
       <main>
-
+        <div>
+          <h2>Projects</h2>
+            <div><!-- row that holds (3) columns -->
+              <div><!-- first column (used for image) -->
+                <picture>
+                  <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                  <img src="http://via.placeholder.com/1200x800" alt="Image of User Persona">
+                </picture>
+              </div>
+              <div><!-- second column (used for text) -->
+                <h3>User Persona - Meet Benjamin</h3>
+                <p>
+                  (Presentation of User Persona and his story of how he came to Vocabby)
+                </p>
+              </div>
+            </div>
+            <div><!-- row that holds (3) columns -->
+              <div><!-- first column (used for image) -->
+                <picture>
+                  <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                  <img src="http://via.placeholder.com/1200x800" alt="Image of User Persona">
+                </picture>
+              </div>
+              <div><!-- second column (used for text) -->
+                <h3>User Persona - Meet Benjamin</h3>
+                <p>
+                  (Presentation of User Persona and his story of how he came to Vocabby)
+                </p>
+              </div>
+            </div>
+         </div>
       </main>
 
       <!-- For the footer  -->
