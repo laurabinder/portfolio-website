@@ -4,3 +4,35 @@ Background: #FCFCFC
 Primary Color (Blue): #0C0C0E;
 Secondary Color (Green): #373A41;
 */
+
+body {
+  background-color: #FCFCFC;
+  font-family: 'Martel', serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 500; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #0C0C0E;
+  }
+
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.75em;
+    font-weight: 400;
+  }
+
+  h2, h3, h4 {
+    font-family: 'Exo', sans-serif;
+    line-height: 1.4;
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3 {
+    font-size: 1.75em;
+  }
+  h4 {
+    font-size: 1.35em;
+  }
