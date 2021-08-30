@@ -66,6 +66,9 @@ a:visited { /* visited link */
 a:hover {
   border-bottom: 3px solid var(--primary-color);
 }
+a:focus {
+  border-bottom: 3px solid var(--primary-color);
+}
 a:active { /* selected link */
   color: #994c30;
 }
