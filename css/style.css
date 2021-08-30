@@ -54,3 +54,19 @@ p {
 img {
 width: 100%;
 }
+
+a {
+  color: var(--primary-color);
+  text-decoration: none; /* No underlining */
+  border-bottom: 1xp solid var(--primary-color);
+}
+a:hover {
+  color: #cc6540;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:visited { /* visited link */
+  color: #ff7f50;
+}
+a:active { /* selected link */
+  color: #994c30;
+}
