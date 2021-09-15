@@ -1,18 +1,63 @@
 /*
 Colors used:
 Background: #FCFCFC
-Primary Color (Blue): #0C0C0E;
-Secondary Color (Green): #373A41;
+Primary Color (Dark-Gray): #0C0C0E;
+Secondary Color (Gray): #373A41;
 */
 
 :root {
-  --primary-color: #0C0C0E;
-  --background: #FCFCFC;
+  --primary-color: 12,12,14;
+  --secondary-color: 55,58,65;
+  --background: 252,252,252;
 }
 
 * {
   box-sizing: border-box;
 }
+
+#hero .container {
+  padding-top: 140px;
+}
+
+/* Navigation Layout */
+
+header {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
+  position: fixed;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+nav > ul > li > a:visited {
+  color: rgba(var(--primary-color), 0.8);
+}
+
+#menu a {
+  border-bottom: none;
+}
+
+.logo img {
+  max-width: 80px;
+}
+
+/* Body Layout */
 
 body {
   background-color: var(--background);
@@ -23,12 +68,13 @@ body {
   color: var(--primary-color);
 }
 
-header {
-  background-color: #ff44c4;
-  padding: 10px 5px 15px 5px;
-  margin: 10px;
-  border-bottom: 3px solid #4a4a4a;
-  position: fixed;
+/* Hero Layout */
+
+#hero {
+  background-color: rgba(var(--secondary-color), 0.1);
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }
 
 /* Layout */
@@ -40,7 +86,7 @@ header {
   margin: 25px 0;
 }
 
-#projects .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+#projects .row { padding-bottom: 25px; border-bottom: 1px solid var(--primary-color); }
 
 /* Fonts*/
 
@@ -51,7 +97,9 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 3.5em;
+  font-size: 3.5em;
+  margin: 0;
+  padding: 0.6em 0;
 }
 
 h2 {
@@ -60,7 +108,7 @@ h2 {
 
 h3 {
   font-size: 2.75em;
-    margin: 25px 0;
+  margin: 0.6em 0;
 }
 
 h4 {
