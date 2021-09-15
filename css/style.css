@@ -42,11 +42,11 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: var(--primary-color);
+  color: rgb(var(--primary-color));
 }
 
 nav > ul > li > a:visited {
-  color: rgba(var(--primary-color), 0.8);
+  color: rgba(rgb(var(--primary-color)), 0.8);
 }
 
 #menu a {
@@ -60,12 +60,12 @@ nav > ul > li > a:visited {
 /* Body Layout */
 
 body {
-  background-color: var(--background);
+  background-color: rgb(var(--background));
   font-family: 'Roboto', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 400; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: var(--primary-color);
+  color: rgb(var(--primary-color));
 }
 
 /* Hero Layout */
@@ -86,7 +86,7 @@ body {
   margin: 25px 0;
 }
 
-#projects .row { padding-bottom: 25px; border-bottom: 1px solid var(--primary-color); }
+#projects .row { padding-bottom: 25px; border-bottom: 1px solid rgb(var(--primary-color)); }
 
 /* Fonts*/
 
@@ -141,18 +141,18 @@ width: 100%;
 /* Links */
 
 a {
-  color: var(--primary-color);
+  color: rgb(var(--primary-color));
   text-decoration: none; /* No underlining */
-  border-bottom: 1px solid var(--primary-color);
+  border-bottom: 1px solid rgb(var(--primary-color));
 }
 a:visited { /* visited link */
   color: #ff7f50;
 }
 a:hover {
-  border-bottom: 3px solid var(--primary-color);
+  border-bottom: 3px solid rgb(var(--primary-color));
 }
 a:focus {
-  border-bottom: 3px solid var(--primary-color);
+  border-bottom: 3px solid rgb(var(--primary-color));
 }
 a:active { /* selected link */
   color: #994c30;
@@ -168,21 +168,22 @@ a.logo {
 
 a.button {
   display: inline-block;
-  background-color: var(--background);
-  color: var(--primary-color);
+  background-color: rgb(var(--background));
+  color: rgb(var(--primary-color));
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 10px;
   border-radius: 5px;
-  border: 2px solid var(--primary-color);
+  border: 2px solid rgb(var(--primary-color));
   transition: 0.2s opacity;
   box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
-  }
+}
+
 a.button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
-  background-color: var(--primary-color);
-  color: var(--background);
+  background-color: rgb(var(--primary-color));
+  color: rgb(var(--background));
   text-decoration: none;
-    box-shadow: none;
+  box-shadow: none;
 }
