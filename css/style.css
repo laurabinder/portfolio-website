@@ -10,6 +10,10 @@ Secondary Color (Green): #373A41;
   --background: #FCFCFC;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--background);
   font-family: 'Roboto', sans-serif;
@@ -21,14 +25,27 @@ body {
 
 header {
   background-color: #ff44c4;
-  padding: 10px;
+  padding: 10px 5px 15px 5px;
   margin: 10px;
+  border-bottom: 3px solid #4a4a4a;
+  position: fixed;
 }
+
+/* Layout */
+
+.container {
+  padding: 0 15px;
+}
+
+#projects .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+
+
+/* Fonts*/
 
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-    line-height: 1;
+  line-height: 1;
 }
 
 h1 {
@@ -57,9 +74,20 @@ p {
     font-size: 1em;
 }
 
+/* Images */
+
 img {
 width: 100%;
 }
+
+.social-link img {
+  border-bottom: none;
+  width: 68px;
+  padding: 10px 5px 15px 5px;
+  margin: 10px;
+}
+
+/* Links */
 
 a {
   color: var(--primary-color);
@@ -80,6 +108,10 @@ a:active { /* selected link */
 }
 
 a.social-link {
+  border-bottom: none;
+}
+
+a.logo {
   border-bottom: none;
 }
 
