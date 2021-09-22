@@ -127,7 +127,6 @@ body {
   margin-bottom: 15px;
 }
 
-
 #projects .row { padding-bottom: 25px; border-bottom: 1px solid rgb(var(--primary-color)); }
 
 /* Fonts*/
@@ -139,9 +138,14 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 2.5em;
   margin: 0;
   padding: 0.6em 0;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
 }
 
 h2 {
@@ -163,6 +167,14 @@ h4 {
 p {
     font-family: 'Martel', serif;
     font-size: 1em;
+}
+
+p.hero-subheadline {
+  font-family: 'Exo', serif;
+  font-size: 1.7em;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-top: 0px;
 }
 
 /* Images */
@@ -264,7 +276,7 @@ Medium devices (640px and larger)
   }
 
   .small-margin-botton {
-    margin-bottom: 44px; 
+    margin-bottom: 44px;
   }
 
   #about-me h3 { margin-top: 0;}
@@ -278,16 +290,35 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-}
 
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {
-}
+  .col-lg-3 {
+    width: 25%;
+  }
 
-/* ==============================
-Extra-large devices (1920px or larger)
-================================= */
-@media only screen and (min-width: 1920px) {
+  .col-lg-7 {
+    width: 58.33%;
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+  }
+
+  .container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  .portrait {
+    max-width: 240px;
+  }
+
+  h1 {
+    font-size: 3.5em;
+  }
+
 }
