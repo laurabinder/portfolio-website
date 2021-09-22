@@ -21,7 +21,7 @@
       <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/Laura_Binder_favicon-32x32.png">
 
       <!-- Fonts -->
-      <link href="https://fonts.googleapis.com/css2?family=Exo:wght@500&family=Martel:wght@300&family=Roboto&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,200;0,500;0,700;1,200;1,500;1,700&family=Martel:wght@300;700;900&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
       <!-- Stylesheets (3rd party) -->
       <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" rel="stylesheet">
@@ -35,9 +35,10 @@
     	<!-- For the header -->
     	<header id="menu">
     		<!-- For the navigation -->
-    		<div class="container">
+    		<div class="container text-left">
     			<a class="logo" href="index.html">
             <img src="https://dl.dropboxusercontent.com/s/mcqtpj17e9rh22m/Logo_LB.png?dl=0" alt="Laura Binder Logo" >
+          </a>
           <nav>
             <ul>
               <li><a href="index.html">Work</a></li>
@@ -61,17 +62,22 @@
       <main id="about-me">
         <div class="container">
           <div class="row">
-            <picture>
-              <source srcset="img/about/Laura_Binder_Portrait@1x.jpg" media="(max-width:767px)">
-              <img src="img/about/Laura_Binder_Portrait@2x.jpg" alt="12 Month Challange Projekt Image">
-            </picture>
-            <div class="row">
-              <h2>My Story</h2>
-              <p>I have been working successfully and enthusiastically as a designer for six years - but am now
+            <div class="col-md-6 col-lg-8 col-xl-4">
+              <picture class="portrait">
+                <source srcset="img/about/Laura_Binder_Portrait@1x.png" media="(max-width:767px)">
+                <img src="img/about/Laura_Binder_Portrait@2x.png" alt="Laura Binder Portrait">
+              </picture>
+            </div>
+            <div class="col-md-6 col-lg-8 col-xl-4">
+              <h2 class="mt-0">My Story</h2>
+              <p class="no-margin-botton">I have been working successfully and enthusiastically as a designer for six years - but am now
               actively seeking a change to a new field of work with a wider spectrum. With my successfully
               completed further training as a UX designer, I would like to change professionally and apply
               my learned skills.<br>
-              On a classical-graphic basis, I have started to build up professional UX knowledge, among
+              </p>
+            </div>
+            <div class="col-md-12 col-lg-12 col-xl-12">
+              <p class="no-margin-top">On a classical-graphic basis, I have started to build up professional UX knowledge, among
               other things, through further training at CareerFoundry. Thus, in addition to very in-depth
               knowledge in the design of user-centred interfaces, I also have knowledge in areas such as
               research, target group identification or the creation of navigation structures.
@@ -81,30 +87,30 @@
               </p>
               <a href="files/CV_Laura_Binder_UX-Design.pdf" class="button" download>Download my CV</a>
             </div>
-            <div class="row">
-              <h2>Skills and Tools</h2>
-              <div><!-- column (used for skills) -->
-                <h3>Skill Set</h3>
-                <ul>
-                  <li>Languages: German (mother tongue), English (B2 - C1)</li>
-                  <li>User Research</li>
-                  <li>Navigation Structures</li>
-                  <li>Wireframing / Prototyping / Mockup Design</li>
-                  <li>Usability Testing</li>
-                  <li>Typography and Graphic Design</li>
-                </ul>
-              </div>
-              <div><!-- column (used for tools) -->
-                <h3>Tool Set</h3>
-                <ul>
-                  <li>InVision</li>
-                  <li>Adobe XD</li>
-                  <li>Photoshop</li>
-                  <li>Illustrator</li>
-                  <li>Indesign</li>
-                  <li>AfterEffects</li>
-                </ul>
-              </div>
+          </div>
+          <div class="row">
+            <h2 class="small-margin-botton">Skills and Tools</h2>
+            <div class="col-md-6 col-lg-8 col-xl-4 text-center"><!-- column (used for skills) -->
+              <h3>Skill Set</h3>
+              <ul>
+                <li>Languages: German (mother tongue), English (B2 - C1)</li>
+                <li>User Research</li>
+                <li>Navigation Structures</li>
+                <li>Wireframing / Prototyping / Mockup Design</li>
+                <li>Usability Testing</li>
+                <li>Typography and Graphic Design</li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-8 col-xl-4 text-center"><!-- column (used for tools) -->
+              <h3>Tool Set</h3>
+              <ul>
+                <li>InVision</li>
+                <li>Adobe XD</li>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>Indesign</li>
+                <li>AfterEffects</li>
+              </ul>
             </div>
           </div>
         </div>
