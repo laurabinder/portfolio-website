@@ -61,7 +61,7 @@ nav > ul > li > a:hover {
 }
 
 .logo img {
-  max-width: 80px;
+  max-width: 40px;
 }
 
 /* Body Layout */
@@ -105,15 +105,18 @@ body {
 [class*="col-"] {
   float: left;
   padding: 10px;
+  width: 100%;
 }
 
 .mt-0 {
   margin-top: 0;
 }
 
+/*
 .text-left {
   text-align: left;
 }
+*/
 
 .no-margin-top {
   margin-top: 0px;
@@ -302,6 +305,10 @@ Medium devices (640px and larger)
     margin-top: 4px;
   }
 
+  .logo img {
+    max-width: 80px;
+  }
+
   #hero span {
     display: block;
   }
@@ -335,6 +342,12 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+
+  .max-width-1080px {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .col-lg-3 {
     width: 25%;
