@@ -80,9 +80,6 @@ body {
 #hero {
   background-color: rgba(var(--secondary-color), 0.1);
   padding: 20px 0;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
 }
 
 /* Layout */
