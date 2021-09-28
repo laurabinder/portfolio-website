@@ -73,6 +73,10 @@ body {
   color: rgb(var(--primary-color));
 }
 
+ul {
+  text-align: left;
+}
+
 /* Hero Layout */
 
 #hero {
