@@ -23,8 +23,6 @@ Secondary Color (Gray): #373A41;
 
 header {
   background-color: #ffffff;
-  text-align: center;
-  padding: 10px 0;
   box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
   position: fixed;
   right: 0;
