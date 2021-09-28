@@ -343,7 +343,7 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
-  .max-width-1080px {
+  .header-container {
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
