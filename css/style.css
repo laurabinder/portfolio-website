@@ -70,14 +70,23 @@ nav > ul > li > a:hover {
   max-width: 40px;
 }
 
+.icon img {
+  max-width: 140px;
+}
+
 /* Body Layout */
 
 body {
   background-color: rgb(var(--background));
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 400; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+}
+
+.white {
+  background-color: white;
+  padding: 10px 25px;
 }
 
 ul {
@@ -101,6 +110,9 @@ ul {
 .row {
   margin: 25px 0;
   text-align: center;
+}
+#vocabby .row {
+  margin: 50px 0;
 }
 
 .row::after {
@@ -206,7 +218,7 @@ h4 {
 p {
     font-family: 'Martel', serif;
     color: rgb(var(--font-color));
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 p.hero-subheadline {
@@ -215,6 +227,12 @@ p.hero-subheadline {
   line-height: 1.4;
   font-weight: 200;
   margin-top: 0px;
+}
+
+ul {
+  font-family: 'Martel', serif;
+  font-size: 1.2em;
+  font-weight: 400;
 }
 
 /* Images */
@@ -361,8 +379,24 @@ Medium devices (640px and larger)
     text-align: center;
   }
 
+  .text-left ul {
+    text-align: left;
+  }
+
   .small-margin-botton {
     margin-bottom: 44px;
+  }
+
+  .icon {
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .middle {
+    text-align: center;
+    border-left: 2px solid rgb(var(--font-color), 0.1);
+    border-right: 2px solid rgb(var(--font-color), 0.1);
   }
 
   h1 {
