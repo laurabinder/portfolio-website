@@ -1,6 +1,6 @@
 /*
 Colors used:
-Background: #FCFCFC
+Background: #f6f6f6
 Font Color (dark violet): #3c2b3f;
 Alternative Font Colour (dark green): #278379;
 Primary Color (green): #aae1db;
@@ -12,7 +12,7 @@ Secondary Color (light green): #e9f4f3;
   --font-color: 60, 43, 63;
   --alternative-font-color: 39, 131, 121;
   --secondary-color: 233,244,243;
-  --background: 252,252,252;
+  --background: 248,248,248;
 }
 
 * {
@@ -44,6 +44,8 @@ nav > ul {
 
 nav > ul > li {
   display: inline-block;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.8em;
 }
 
 nav > ul > li > a {
@@ -70,14 +72,24 @@ nav > ul > li > a:hover {
   max-width: 40px;
 }
 
+.icon img {
+  max-width: 140px;
+}
+
 /* Body Layout */
 
 body {
   background-color: rgb(var(--background));
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  color: rgb(var(--font-color));
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 400; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+}
+
+.white {
+  background-color: white;
+  padding: 10px 25px;
 }
 
 ul {
@@ -101,6 +113,9 @@ ul {
 .row {
   margin: 25px 0;
   text-align: center;
+}
+#vocabby .row {
+  margin: 50px 0;
 }
 
 .row::after {
@@ -206,7 +221,7 @@ h4 {
 p {
     font-family: 'Martel', serif;
     color: rgb(var(--font-color));
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 p.hero-subheadline {
@@ -215,6 +230,12 @@ p.hero-subheadline {
   line-height: 1.4;
   font-weight: 200;
   margin-top: 0px;
+}
+
+ul {
+  font-family: 'Martel', serif;
+  font-size: 1.2em;
+  font-weight: 400;
 }
 
 /* Images */
@@ -272,6 +293,12 @@ a.button {
   transition: 0.2s opacity;
   box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
   transition: 0.2s opacity;
+}
+
+.white a.button {
+    background-color: rgb(var(--white));
+    margin-bottom: 30px;
+  margin-top: 0px;
 }
 
 a.button:hover {
@@ -361,8 +388,24 @@ Medium devices (640px and larger)
     text-align: center;
   }
 
+  .text-left ul {
+    text-align: left;
+  }
+
   .small-margin-botton {
     margin-bottom: 44px;
+  }
+
+  .icon {
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .middle {
+    text-align: center;
+    border-left: 2px solid rgb(var(--font-color), 0.1);
+    border-right: 2px solid rgb(var(--font-color), 0.1);
   }
 
   h1 {
