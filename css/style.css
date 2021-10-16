@@ -204,6 +204,12 @@ ul {
   border: 2px solid rgb(var(--primary-color));
 }
 
+#contact a.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  color: rgb(var(--font-color));
+  border: 2px solid rgb(var(--primary-color));
+}
+
 a.button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   background-color: rgb(var(--primary-color));
