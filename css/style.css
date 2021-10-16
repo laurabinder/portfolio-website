@@ -483,6 +483,8 @@ Medium devices (640px and larger)
     padding-top: 15px;
   }
 
+}
+
 
 /* ==============================
 Large devices (1024px or larger)
@@ -541,11 +543,10 @@ Large devices (1024px or larger)
     font-size: 2.5em;
   }
 
-  p.hero-subheadline {
-    text-transform: uppercase;
-    font-size: 1.6em;
-    letter-spacing: 2px;
-    padding-top: 25px;
+  p.hero-subheadline {text-transform: uppercase;
+  font-size: 1.6em;
+  letter-spacing: 2px;
+  padding-top: 25px;
   }
-
+  
 }
