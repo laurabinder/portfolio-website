@@ -125,6 +125,7 @@ body {
 
 ul {
   text-align: center;
+  list-style-position: inside;
 }
 
 /* Hero Layout */
@@ -548,5 +549,5 @@ Large devices (1024px or larger)
   letter-spacing: 2px;
   padding-top: 25px;
   }
-  
+
 }
