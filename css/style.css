@@ -223,7 +223,7 @@ h1 {
   color: rgb(var(--font-color));
   font-size: 2em;
   margin: 0;
-  padding: 0.3em 0;
+  padding: 0;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 3px;
